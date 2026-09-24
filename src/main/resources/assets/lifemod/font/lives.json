@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "lifemod:font/lives_heart.png",
+      "ascent": 7,
+      "height": 9,
+      "chars": ["\uE000"]
+    }
+  ]
+}

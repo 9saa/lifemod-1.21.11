@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NAN",
+    "TST",
+    "NAN"
+  ],
+  "key": {
+    "N": "minecraft:nautilus_shell",
+    "A": "minecraft:enchanted_golden_apple",
+    "T": "minecraft:totem_of_undying",
+    "S": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "lifemod:life_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "THT",
+    "NBN",
+    "TNT"
+  ],
+  "key": {
+    "T": "minecraft:totem_of_undying",
+    "H": "minecraft:player_head",
+    "N": "minecraft:netherite_ingot",
+    "B": "minecraft:beacon"
+  },
+  "result": {
+    "id": "lifemod:revive_beacon",
+    "count": 1
+  }
+}

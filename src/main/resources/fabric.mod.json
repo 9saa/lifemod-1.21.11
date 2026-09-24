@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "lifemod",
+  "version": "${version}",
+  "name": "LifeMod",
+  "description": "A comprehensive life system for Minecraft 1.21.11",
+  "authors": ["Example"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.lifemod.LifeMod"],
+    "client": ["com.example.lifemod.client.LifeModClient"]
+  },
+  "mixins": [
+    "lifemod.mixins.json",
+    {
+      "config": "lifemod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

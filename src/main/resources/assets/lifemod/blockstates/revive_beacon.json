@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "lifemod:block/revive_beacon" }
+  }
+}

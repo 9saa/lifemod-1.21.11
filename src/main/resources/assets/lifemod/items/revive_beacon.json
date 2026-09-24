@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "lifemod:item/revive_beacon"
+  }
+}
